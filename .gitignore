@@ -61,6 +61,6 @@ out/
 .env.local
 
 watermark.txt
-examples/**/*.json
+
 
 __pycache__
