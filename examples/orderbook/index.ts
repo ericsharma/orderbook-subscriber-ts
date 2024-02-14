@@ -1,6 +1,6 @@
 import * as algokit from '@algorandfoundation/algokit-utils'
 import { TransactionResult } from '@algorandfoundation/algokit-utils/types/indexer'
-import { TransactionType } from 'algosdk'
+import algosdk, { TransactionType } from 'algosdk'
 import fs from 'fs'
 import path from 'path'
 import { AlgorandSubscriber } from '../../src/subscriber'
@@ -22,7 +22,7 @@ async function getOrderBookSubscriber() {
           filter: {
             type: TransactionType.appl,
             // replace appID of target appId on machine localnet
-            appId: 1002,
+            appId: 1193,
           },
         },
       ],
@@ -40,13 +40,34 @@ async function getOrderBookSubscriber() {
   subscriber.onBatch('orderbook', async (events) => {
     // eslint-disable-next-line no-console
     console.log(`Received ${events.length} asset changes`)
+
     await saveOrderbookTransactions(events)
   })
   return subscriber
 }
 
 async function saveOrderbookTransactions(transactions: TransactionResult[]) {
-  await saveTransactions(transactions, 'orderbook.json')
+  // eslint-disable-next-line no-debugger
+  debugger
+  await saveTransactions(
+    transactions.map((transaction) => {
+      if (transaction?.['application-transaction']['application-args'][0] == 'OBFgNw==') {
+        const appArgs = transaction?.['application-transaction']['application-args']
+        const decoded = [
+          0,
+          Buffer.from(appArgs[1], 'base64').toString(),
+          'place',
+          algosdk.decodeUint64(Buffer.from(appArgs[3], 'base64'), 'safe'),
+          algosdk.decodeUint64(Buffer.from(appArgs[4], 'base64'), 'safe'),
+        ]
+
+        return { decoded }
+      }
+
+      return transaction
+    }),
+    'orderbook.json',
+  )
 }
 
 // Basic methods that persist using filesystem - for illustrative purposes only
