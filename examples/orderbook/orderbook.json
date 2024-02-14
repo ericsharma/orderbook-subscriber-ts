@@ -5,7 +5,9 @@
       "approval-program": "\n \u0005\u0001\u0000\u0004\u0006��\u0006&\u0003\u0004\u0015\u001f|u\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00011\u0018\u0014%\u000b1\u0019\b�\f\u0005\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00006\u001a\u0001\u0017�01\u0016\"\tI8\u0010\"\u0012D�\u0000\u0002\"C�\u0002\u0000��8\u00072\n\u0012D��8\b!\u0004\u0012D�$�\u0010���\u0011#�\u00122\n�\u00002\n�\u0014#�\u0001��(6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�01\u0016\"\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010\"\u0012D1\u0016�\u0003\tI8\u0010\"\u0012D6\u001a\u0001W\u0002\u0000�\u0000\u0005\u0016P�\"C�\u0007\u0001�\u0000I��8\u0000��8\u0000\u0012IA\u0000\n��8\u0000��8\u0000\u0012\u0010�\u0000�\u0000D��8\u00072\n\u0012D��8\b���\u0018\u0012D��8\u00072\n\u0012D��8\b���\f\u0012D2\n��8\u0011p\u0000LHD��8\u00142\n\u0012D�%�\u0010�\u0004��F\u0006�\u001a�\u0001\n�\u001f��\u0006\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000�\u001e��8\u0011�0)�\u001a���0*�\u001a��\u0016�\u001a��\u0016�\u001a��8\u0000�\u001c*�\u001a\"�5$�4#�7#�6#�\u0001��;\"\t�:W\u0004\u0000�=�\u0001�\"�\u0010��8\b�\b�\u0001r\bH�\u0007#�\u0001�%�\u0010�\u0004i6�\u0010�\u001a�\u0001�\u0018��8\u0011�0)�\u001a#�\u0001��$�\u0010��8\u0011�\u0011�\u0001r\bH�\u0014��8\u0012�\u0012#�\u0001��$�\u0010��8\u0011�\u0011��8\u0000�\u0014��8\u0000�\u0015#�\u0012#�\u0001�2\n��8\u0011p\u0000LH\u0014D�\"�\u0010��8\u0000�\u0007!\u0004�\b#�\u0001��\u0001�\u0000F\u0001�(6\u001a\u0003\u0017�06\u001a\u0002\u0017�06\u001a\u0001\u0017�2�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�\"C�\u0003\u0001��r\u0007H2\n\u0012D��r\bH��p\u0000H#\rD��r\bH��r\u0007HP2\nP�\"C�\u0004�D{66\u001a\u0000�\u0001��\u0000�\u0004�l3\u0005�\u00048\u0011`7�\u0004\u0015�R6\u001a\u0000�\u0003���\f��\u0000",
       "clear-state-program": "\n",
       "on-completion": "update",
-      "application-args": ["uER7Ng=="]
+      "application-args": [
+        "uER7Ng=="
+      ]
     },
     "first-valid": 37,
     "last-valid": 1037,
@@ -31,8 +33,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1194]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 42,
     "last-valid": 1042,
@@ -81,8 +88,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 10", " 20"],
-      "foreign-assets": [1195]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 10",
+        " 20"
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 42,
     "last-valid": 1042,
@@ -104,13 +119,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAAAo=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1194, 1195],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAAAo=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1194,
+            1195
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 42,
         "last-valid": 1042,
@@ -125,7 +152,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1205,
-        "logs": ["FR98dSHCuA49wpQdV1DCqtWwEMKUw5PCr3Qp44SIzYAhwpxCwrJzcibKlw=="]
+        "logs": [
+          "FR98dSHCuA49wpQdV1DCqtWwEMKUw5PCr3Qp44SIzYAhwpxCwrJzcibKlw=="
+        ]
       },
       {
         "id": "ADQJXBYZKSPKL6SIJVHXYKGT5CA5JBUULJAF7SU2PKVI23CDM5CA",
@@ -154,8 +183,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1194]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1194
+          ]
         },
         "first-valid": 42,
         "last-valid": 1042,
@@ -260,7 +294,9 @@
     "signature": {
       "sig": "gS4MolHrij8j482woZboH2whu8PoY3FIF9ibR91m0zDrE5DavDwgV5oaKPuCc+VjVN6i9RjMoYfhRrLE1cVdAw=="
     },
-    "logs": ["FR98dQAAAAAAAATCtQ=="]
+    "logs": [
+      "FR98dQAAAAAAAATCtQ=="
+    ]
   },
   {
     "id": "ZOK2VK4JDCBEV2CB7RVIFAGWZBOJ2NDMEF7G2CIRL75ML7RZNLGA",
@@ -269,8 +305,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1194]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 43,
     "last-valid": 1043,
@@ -319,8 +360,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 20", " 20"],
-      "foreign-assets": [1195]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 20",
+        " 20"
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 43,
     "last-valid": 1043,
@@ -342,13 +391,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAABQ=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1194, 1195],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1194,
+            1195
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 43,
         "last-valid": 1043,
@@ -363,7 +424,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1219,
-        "logs": ["FR98dcKQw6YuF9Cqfzryt4iOwodQIE9WwoFywpjCniMHwrEkOMKXw75R6ruj"]
+        "logs": [
+          "FR98dcKQw6YuF9Cqfzryt4iOwodQIE9WwoFywpjCniMHwrEkOMKXw75R6ruj"
+        ]
       },
       {
         "id": "EZENER2TFGPY6OWLO2ILMKLGPDBDQKHJEL5P6R3BOSHAX3EB3BJA",
@@ -392,8 +455,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1194]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1194
+          ]
         },
         "first-valid": 43,
         "last-valid": 1043,
@@ -498,7 +566,9 @@
     "signature": {
       "sig": "oqU4zzczddG8y+O4azGPFseUXq9GEVYsVubkC5MV6W5OFpvd5TbQM09Jutqs9FDqFfwd0LS1Tb2oboDiwyolDA=="
     },
-    "logs": ["FR98dQAAAAAAAATDow=="]
+    "logs": [
+      "FR98dQAAAAAAAATDow=="
+    ]
   },
   {
     "id": "65TYK3ZT2UGDXSDN7BF27MMEIX5MNTIYUB5ZKY6Q4SASPKULVPYQ",
@@ -507,8 +577,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1194]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 44,
     "last-valid": 1044,
@@ -557,8 +632,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 30", " 20"],
-      "foreign-assets": [1195]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 30",
+        " 20"
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 44,
     "last-valid": 1044,
@@ -580,13 +663,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAAB4=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1194, 1195],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAAB4=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1194,
+            1195
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 44,
         "last-valid": 1044,
@@ -601,7 +696,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1233,
-        "logs": ["FR98dcKUwrRSVcK8fUVd846zogoRzalMO8K/6qeKJcKSQsSUahU8wpx+"]
+        "logs": [
+          "FR98dcKUwrRSVcK8fUVd846zogoRzalMO8K/6qeKJcKSQsSUahU8wpx+"
+        ]
       },
       {
         "id": "HZDEFHXDJQ7ZZJF4K4TTKBMI7JPCCB3KFZNU53JWDB7OPV3S6VUQ",
@@ -630,8 +727,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1194]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1194
+          ]
         },
         "first-valid": 44,
         "last-valid": 1044,
@@ -736,7 +838,9 @@
     "signature": {
       "sig": "bJUbvTF+X6PX+Dnu6MdXmVbd8mRBOmbdfBjwM0qV/RWyVbtrOv5OC8I/gP75Qw6+RdiuPwJxl0L0ygvOoQGRBQ=="
     },
-    "logs": ["FR98dQAAAAAAAATRow=="]
+    "logs": [
+      "FR98dQAAAAAAAATRow=="
+    ]
   },
   {
     "id": "H6DEXMP2OFVSGCDWJKGN5EXNYUI43JYN6NTUE6QZM55Q2AVYFI7Q",
@@ -745,8 +849,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1194]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 45,
     "last-valid": 1045,
@@ -795,8 +904,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 40", " 20"],
-      "foreign-assets": [1195]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 40",
+        " 20"
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 45,
     "last-valid": 1045,
@@ -818,13 +935,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAACg=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1194, 1195],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAACg=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1194,
+            1195
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 45,
         "last-valid": 1045,
@@ -839,7 +968,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1247,
-        "logs": ["FR98dey1vcKn8bmzoUnNs8KkCUhFUcKdwoNQxbl+ewTymZi4PAN9dQ=="]
+        "logs": [
+          "FR98dey1vcKn8bmzoUnNs8KkCUhFUcKdwoNQxbl+ewTymZi4PAN9dQ=="
+        ]
       },
       {
         "id": "RVDX5MMKV4G3CXXYACDRP6QCSTQED375V5JYHAU7VN4XDAOHXDYA",
@@ -868,8 +999,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1194]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1194
+          ]
         },
         "first-valid": 45,
         "last-valid": 1045,
@@ -974,7 +1110,9 @@
     "signature": {
       "sig": "JOp1q5le3uiGedzVTwABNB9fkTPrgxl0WT5IhNpWwTgOWznvahvDMSkto1CjRcvzieOC67PXn/ykTtyMvbtaAg=="
     },
-    "logs": ["FR98dQAAAAAAAATfow=="]
+    "logs": [
+      "FR98dQAAAAAAAATfow=="
+    ]
   },
   {
     "id": "QIBMGRUJFUOCJWBVELHFA2V6I3DJEL4XG473ESR24ACWP2772D4Q",
@@ -983,8 +1121,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1194]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 46,
     "last-valid": 1046,
@@ -1033,8 +1176,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 50", " 20"],
-      "foreign-assets": [1195]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 50",
+        " 20"
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 46,
     "last-valid": 1046,
@@ -1056,13 +1207,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAADI=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1194, 1195],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAADI=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1194,
+            1195
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 46,
         "last-valid": 1046,
@@ -1077,7 +1240,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1261,
-        "logs": ["FR98dd29LkAowoove+OjssO+3LUMR07CmSoGwqTCt8O7wpzChhPXmX1ZOsKc"]
+        "logs": [
+          "FR98dd29LkAowoove+OjssO+3LUMR07CmSoGwqTCt8O7wpzChhPXmX1ZOsKc"
+        ]
       },
       {
         "id": "GHYTYVHQ7NCJSR4JRVDFO7MZ4CJ7VHMFMNBHKDZC4GZX63WVBQNA",
@@ -1106,8 +1271,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1194]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1194
+          ]
         },
         "first-valid": 46,
         "last-valid": 1046,
@@ -1212,7 +1382,9 @@
     "signature": {
       "sig": "zt6ZGrG5BSSRyXDbZe0geDyihvpoCmp5ANZ9vdQ5k8Ed0JNFHavhXINMTlpQBDRsbjwrgWVM2IsdBB7gkC08Ag=="
     },
-    "logs": ["FR98dQAAAAAAAATvv70="]
+    "logs": [
+      "FR98dQAAAAAAAATvv70="
+    ]
   },
   {
     "id": "N5QVXMLKM3U7CWAX2MRSCPETF5C2OC3AOZECNH6A736FRSP7GZBA",
@@ -1221,8 +1393,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1195]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 47,
     "last-valid": 1047,
@@ -1271,8 +1448,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 10", " 20"],
-      "foreign-assets": [1194]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 10",
+        " 20"
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 47,
     "last-valid": 1047,
@@ -1294,13 +1479,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAAAo=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1195, 1194],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAAAo=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1195,
+            1194
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 47,
         "last-valid": 1047,
@@ -1315,7 +1512,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1275,
-        "logs": ["FR98dcO9woEFe3F/5JaWwqnCvXzCtjl4DnVxAuKphEPChFPCug3Dv+eWv2w="]
+        "logs": [
+          "FR98dcO9woEFe3F/5JaWwqnCvXzCtjl4DnVxAuKphEPChFPCug3Dv+eWv2w="
+        ]
       },
       {
         "id": "PX44PKII2BMSTDHIU5KET7KGJMES6SAF7SRGGU2UDROJWJZH6VYQ",
@@ -1344,8 +1543,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1195]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1195
+          ]
         },
         "first-valid": 47,
         "last-valid": 1047,
@@ -1450,7 +1654,9 @@
     "signature": {
       "sig": "HB8U6pOY+TiGeUdwJiG7B8SyYyLPLKfKiv6Vn+Im9kMCgpnnS/NZn0ibjS/hk8q/d7JMw0be6d8l1tK8yEKTAw=="
     },
-    "logs": ["FR98dQAAAAAAAATDuw=="]
+    "logs": [
+      "FR98dQAAAAAAAATDuw=="
+    ]
   },
   {
     "id": "FTZWB7RASAWXBR6EPSYSCG6KDVTQJB63B4SSBNILMJEEF5EFLYIQ",
@@ -1459,8 +1665,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1195]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 48,
     "last-valid": 1048,
@@ -1509,8 +1720,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 20", " 20"],
-      "foreign-assets": [1194]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 20",
+        " 20"
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 48,
     "last-valid": 1048,
@@ -1532,13 +1751,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAABQ=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1195, 1194],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1195,
+            1194
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 48,
         "last-valid": 1048,
@@ -1553,7 +1784,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1289,
-        "logs": ["FR98dSLirKLCkw7huIDCk/KjmIvMvwouMxTCoSIwwrvCuMKbwo9rMsKrRcKn"]
+        "logs": [
+          "FR98dSLirKLCkw7huIDCk/KjmIvMvwouMxTCoSIwwrvCuMKbwo9rMsKrRcKn"
+        ]
       },
       {
         "id": "CEF56HWVTCE64H7LIITWLD2N3X6KZF6C4BTALEUQS3DEYMYF6M2A",
@@ -1582,8 +1815,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1195]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1195
+          ]
         },
         "first-valid": 48,
         "last-valid": 1048,
@@ -1688,7 +1926,9 @@
     "signature": {
       "sig": "A6Ib5917RpZkoSSRniwu32bSMVTT/PNrY3z8k8I+kCl0jc/NYuk02Hrv2vucgHWPluYki5frInBfIDxsF20SDw=="
     },
-    "logs": ["FR98dQAAAAAAAAUJ"]
+    "logs": [
+      "FR98dQAAAAAAAAUJ"
+    ]
   },
   {
     "id": "WRYFXCUZ2K5M4HN6V3CXAAYN2MFRGVOFXCKXMI57IZZWGXO57SDA",
@@ -1697,8 +1937,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1195]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 49,
     "last-valid": 1049,
@@ -1747,8 +1992,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 30", " 20"],
-      "foreign-assets": [1194]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 30",
+        " 20"
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 49,
     "last-valid": 1049,
@@ -1770,13 +2023,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAAB4=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1195, 1194],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAAB4=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1195,
+            1194
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 49,
         "last-valid": 1049,
@@ -1791,7 +2056,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1303,
-        "logs": ["FR98dcKRf214EUE2wod2wqIswpnCmExKwp7khbMhAMK884WkgdmwwoYOwprCsQ=="]
+        "logs": [
+          "FR98dcKRf214EUE2wod2wqIswpnCmExKwp7khbMhAMK884WkgdmwwoYOwprCsQ=="
+        ]
       },
       {
         "id": "M3JKF43RV3ZR33H3SJ5QT7DTUUTIG54LVB2RHIOWVLMWIIPMLQRA",
@@ -1820,8 +2087,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1195]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1195
+          ]
         },
         "first-valid": 49,
         "last-valid": 1049,
@@ -1926,7 +2198,9 @@
     "signature": {
       "sig": "E5qCdC7R6KVwTApqFsw0poI4fR3CFOA46RUQbzGrsujC9bS1r4utLzSofVtBEcgBuQ+45hS4rDlEP51efhFVCw=="
     },
-    "logs": ["FR98dQAAAAAAAAUX"]
+    "logs": [
+      "FR98dQAAAAAAAAUX"
+    ]
   },
   {
     "id": "4O62A4P7DHXDWG4OK3IEAVFQN4QZ4LM7JCVXUPW3CNOTG3P7TFAQ",
@@ -1935,8 +2209,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1195]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 50,
     "last-valid": 1050,
@@ -1985,8 +2264,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 40", " 20"],
-      "foreign-assets": [1194]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 40",
+        " 20"
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 50,
     "last-valid": 1050,
@@ -2008,13 +2295,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAACg=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1195, 1194],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAACg=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1195,
+            1194
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 50,
         "last-valid": 1050,
@@ -2029,7 +2328,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1317,
-        "logs": ["FR98dcKdfMOSwr0IVnvColZzNyDzhI2GwrDCvVlAG8KbwrRQdm7CmhLCi+6Oow=="]
+        "logs": [
+          "FR98dcKdfMOSwr0IVnvColZzNyDzhI2GwrDCvVlAG8KbwrRQdm7CmhLCi+6Oow=="
+        ]
       },
       {
         "id": "WQH2X3WF27BKTODKJLCSJGKQ534RPE6URURRADNH2QUG3CCRFV2Q",
@@ -2058,8 +2359,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1195]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1195
+          ]
         },
         "first-valid": 50,
         "last-valid": 1050,
@@ -2164,7 +2470,9 @@
     "signature": {
       "sig": "8S5/Y8hCTOmS9udm0B5Ay3kzJQfZus1KWZl64WDyeAT9I6hw92saecF8fBeoGGF9D6GKu9dOwPR1EOic6Hj9Bw=="
     },
-    "logs": ["FR98dQAAAAAAAAUl"]
+    "logs": [
+      "FR98dQAAAAAAAAUl"
+    ]
   },
   {
     "id": "XPCF6PGQ27X36B42QFGDMGMIUM7NSWZYB5IFGAN7KZT5I4WGGKXQ",
@@ -2173,8 +2481,13 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["xGwzBQ==", "AA=="],
-      "foreign-assets": [1195]
+      "application-args": [
+        "xGwzBQ==",
+        "AA=="
+      ],
+      "foreign-assets": [
+        1195
+      ]
     },
     "first-valid": 51,
     "last-valid": 1051,
@@ -2223,8 +2536,16 @@
       "approval-program": "",
       "clear-state-program": "",
       "on-completion": "update",
-      "application-args": ["0", "\u0000\u0004open", "place", " 50", " 20"],
-      "foreign-assets": [1194]
+      "application-args": [
+        "0",
+        "\u0000\u0004open",
+        "place",
+        " 50",
+        " 20"
+      ],
+      "foreign-assets": [
+        1194
+      ]
     },
     "first-valid": 51,
     "last-valid": 1051,
@@ -2246,13 +2567,25 @@
           "approval-program": "\n \u0004\u0000\u0001\u0004\u0006&\u0007\u0005owner\tsellAsset\bbuyAsset\tsellQuant\bbuyQuant\u0004\u0015\u001f|u\u00001\u0018\u0014%\u000b1\u0019\b�\f\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002�\u0002q\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0001��+d\u001d\"'\u0004d\u001fHHL\u0014D��\u0003\u00002\n��p\u0000LHA\u0000!2\n��p\u0000H\"\u0012D�$�\u0010���\u0011���\u0014���\u0015\"�\u0012\"�\u0001������\u0001��'\u00056\u001a\u0005\u0017�\u001c6\u001a\u0004\u00176\u001a\u0003\u00176\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0004P�#C�\u0005\u0001)��g*��g+��g'\u0004��g(��g2\n�6\u001a\u0001\u0017�01\u0016#\tI8\u0010#\u0012D�\u0000\u0002#C�\u0002\u0000'\u0006)d��\u0012I@\u0000\u0006*d��\u0012\u0011�\u0000��8\u00072\n\u0012D��8\b���\u0006\u000fD�\u0000D�$�\u0010���\u0011\"�\u00122\n�\u00002\n�\u0014\"�\u0001��'\u00056\u001a\u0003\u0017�\u001c6\u001a\u0002\u0017�06\u001a\u0001\u0017�01\u0016#\tI8\u0010$\u0012D1\u0016�\u0002\tI8\u0010%\u0012D�\u0000\u000fI\u0015� \n\u0016W\u0006\u0002LPP�#C�\u0005\u0001'\u0006��8\u0018r\bH62\u0000r\u0007H\u0012D��8\u0011*d\u0012D��8\u0011��\u0012D)d��\u0012D(d��\u0012D��8\u0000��p\u0000LHD��8\u0012����\u00002\n)dp\u0000H�\u0000\u000fD(d*dp\u0000LHD�$�\u0010��8\u0011�\u0011��8\u0012�\u0012(d�\u0014\"�\u0001��$�\u0010���\u0011�\u0000�\u0012��8\u0000�\u0014\"�\u0001�2\n)dp\u0000H\"\u0012A\u0000\u000b��8\u0000������[��8\u0018r\bH62\u0000r\u0007HP2\nP�\u0000�6\u001a\u0002\u0017�06\u001a\u0001\u0017�0�\u0000\u0002#C�\u0002\u00001\u0000(d\u0012A\u0000L�$�\u0010���\u00111\u0000�\u00141\u0000�\u0015\"�\u0012\"�\u0001�2\n��p\u0000LHA\u0000\u0017�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001�B\u0000;2\n��p\u0000LH\u0014D2\n��p\u0000H\"\u0012D�$�\u0010���\u0011(d�\u0014(d�\u0015\"�\u0012\"�\u0001��#�\u0010(d�\u0007(d�\t\"�\u0001���\u0004��F\u00066\u001a\u0000�\u0001��\u0000�\u0004i6�\u0010�\u0004U���6\u001a\u0000�\u0002���M\u0000�\u0004�\u000e%R6\u001a\u0000�\u0001�+\u0000",
           "clear-state-program": "\n",
           "on-completion": "update",
-          "application-args": ["gaNGBg==", "AAAAAAAAAAA=", "AAAAAAAAAAE=", "AAAAAAAAADI=", "AAAAAAAAABQ=", "AAAAAAAAAAE="],
-          "foreign-assets": [1195, 1194],
+          "application-args": [
+            "gaNGBg==",
+            "AAAAAAAAAAA=",
+            "AAAAAAAAAAE=",
+            "AAAAAAAAADI=",
+            "AAAAAAAAABQ=",
+            "AAAAAAAAAAE="
+          ],
+          "foreign-assets": [
+            1195,
+            1194
+          ],
           "global-state-schema": {
             "num-byte-slice": 1,
             "num-uint": 4
           },
-          "accounts": ["2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"]
+          "accounts": [
+            "2RDFMDGV6W4ZBQ7JBCVT3BWERXLNCEIUDW5YSZWCXPDDZDUTBL65LY4PCU"
+          ]
         },
         "first-valid": 51,
         "last-valid": 1051,
@@ -2267,7 +2600,9 @@
         "note": "",
         "lease": "",
         "created-application-index": 1331,
-        "logs": ["FR98dVQbR0A47IqcRV9lwrIP3ZACLXxl6rG6KBXChuqLiCLcrg=="]
+        "logs": [
+          "FR98dVQbR0A47IqcRV9lwrIP3ZACLXxl6rG6KBXChuqLiCLcrg=="
+        ]
       },
       {
         "id": "XGQ5DVSZ6MYQ6EAIOLAK5BWL63T6QX4DGTDSRLO6HGIMWUVL23BA",
@@ -2296,8 +2631,13 @@
           "approval-program": "",
           "clear-state-program": "",
           "on-completion": "update",
-          "application-args": ["aTboEA==", "AAAAAAAAAAA="],
-          "foreign-assets": [1195]
+          "application-args": [
+            "aTboEA==",
+            "AAAAAAAAAAA="
+          ],
+          "foreign-assets": [
+            1195
+          ]
         },
         "first-valid": 51,
         "last-valid": 1051,
@@ -2402,6 +2742,8 @@
     "signature": {
       "sig": "OgJFwgblNrGSItWyiVMVsDjh9MtMa3bF8XaAPX2Yj4FgMvchMg6oe59X+FYQfm4fDTzbViXlDDy0as/QDHpiCA=="
     },
-    "logs": ["FR98dQAAAAAAAAUz"]
+    "logs": [
+      "FR98dQAAAAAAAAUz"
+    ]
   }
 ]
