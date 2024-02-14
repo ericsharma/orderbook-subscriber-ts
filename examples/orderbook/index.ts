@@ -11,30 +11,18 @@ if (!fs.existsSync(path.join(__dirname, '..', '..', '.env')) && !process.env.ALG
   process.exit(1)
 }
 
-interface DHMAsset {
-  id: number
-  name: string
-  unit: string
-  mediaUrl: string
-  metadata: Record<string, unknown>
-  created: string
-  lastModified: string
-}
-
-async function getDHMSubscriber() {
+async function getOrderBookSubscriber() {
   const algod = await algokit.getAlgoClient()
   const indexer = await algokit.getAlgoIndexerClient()
   const subscriber = new AlgorandSubscriber(
     {
       events: [
         {
-          eventName: 'dhm-asset',
+          eventName: 'orderbook',
           filter: {
-            type: TransactionType.acfg,
-            // Data History Museum creator accounts
-            sender: (await algokit.isTestNet(algod))
-              ? 'ER7AMZRPD5KDVFWTUUVOADSOWM4RQKEEV2EDYRVSA757UHXOIEKGMBQIVU'
-              : 'EHYQCYHUC6CIWZLBX5TDTLVJ4SSVE4RRTMKFDCG4Z4Q7QSQ2XWIQPMKBPU',
+            type: TransactionType.appl,
+            // replace appID of target appId on machine localnet
+            appId: 1002,
           },
         },
       ],
@@ -49,56 +37,16 @@ async function getDHMSubscriber() {
     algod,
     indexer,
   )
-  subscriber.onBatch('dhm-asset', async (events) => {
+  subscriber.onBatch('orderbook', async (events) => {
     // eslint-disable-next-line no-console
     console.log(`Received ${events.length} asset changes`)
-    // Save all of the Data History Museum Verifiably Authentic Digital Historical Artifacts
-    await saveDHMTransactions(events)
+    await saveOrderbookTransactions(events)
   })
   return subscriber
 }
 
-function getArc69Metadata(t: TransactionResult) {
-  let metadata = {}
-  try {
-    if (t.note && t.note.startsWith('ey')) metadata = JSON.parse(Buffer.from(t.note, 'base64').toString('utf-8'))
-    // eslint-disable-next-line no-empty
-  } catch (e) {}
-  return metadata
-}
-
-async function saveDHMTransactions(transactions: TransactionResult[]) {
-  const assets = await getSavedTransactions<DHMAsset>('dhm-assets.json')
-
-  for (const t of transactions) {
-    if (t['created-asset-index']) {
-      assets.push({
-        id: t['created-asset-index'],
-        name: t['asset-config-transaction']!.params!.name!,
-        unit: t['asset-config-transaction']!.params!['unit-name']!,
-        mediaUrl: t['asset-config-transaction']!.params!.url!,
-        metadata: getArc69Metadata(t),
-        created: new Date(t['round-time']! * 1000).toISOString(),
-        lastModified: new Date(t['round-time']! * 1000).toISOString(),
-      })
-    } else {
-      const asset = assets.find((a) => a.id === t['asset-config-transaction']!['asset-id'])
-      if (!asset) {
-        // eslint-disable-next-line no-console
-        console.error(t)
-        throw new Error(`Unable to find existing asset data for ${t['asset-config-transaction']!['asset-id']}`)
-      }
-      if (!t['asset-config-transaction']!.params) {
-        // Asset was deleted, remove it
-        assets.splice(assets.indexOf(asset), 1)
-      } else {
-        asset!.metadata = getArc69Metadata(t)
-        asset!.lastModified = new Date(t['round-time']! * 1000).toISOString()
-      }
-    }
-  }
-
-  await saveTransactions(assets, 'dhm-assets.json')
+async function saveOrderbookTransactions(transactions: TransactionResult[]) {
+  await saveTransactions(transactions, 'orderbook.json')
 }
 
 // Basic methods that persist using filesystem - for illustrative purposes only
@@ -131,7 +79,7 @@ async function saveTransactions(transactions: unknown[], fileName: string) {
 // eslint-disable-next-line no-console
 process.on('uncaughtException', (e) => console.error(e))
 ;(async () => {
-  const subscriber = await getDHMSubscriber()
+  const subscriber = await getOrderBookSubscriber()
 
   if (process.env.RUN_LOOP === 'true') {
     subscriber.start()
