@@ -25,5 +25,5 @@ Run against the orderbooks created in our smart contract testing suite/ private 
 
 ## Example jsons
 
-`OpenExecuteCloseOrderbook.json` -> `Algodex-2.0.test.ts`
-`MultiOpenORderOrderbook.json` -> `Orderbook.test.ts`
+- `OpenExecuteCloseOrderbook.json` -> `Algodex-2.0.test.ts`
+- `MultiOpenORderOrderbook.json` -> `Orderbook.test.ts`
