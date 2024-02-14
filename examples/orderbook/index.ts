@@ -54,14 +54,14 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
       if (transaction?.['application-transaction']['application-args'][0] == 'OBFgNw==') {
         const appArgs = transaction?.['application-transaction']['application-args']
         const decoded = [
-          0,
+          '0',
           Buffer.from(appArgs[1], 'base64').toString(),
           'place',
-          algosdk.decodeUint64(Buffer.from(appArgs[3], 'base64'), 'safe'),
-          algosdk.decodeUint64(Buffer.from(appArgs[4], 'base64'), 'safe'),
+          ` ${algosdk.decodeUint64(Buffer.from(appArgs[3], 'base64'), 'safe')}`,
+          ` ${algosdk.decodeUint64(Buffer.from(appArgs[4], 'base64'), 'safe')}`,
         ]
 
-        return { decoded }
+        transaction['application-transaction']['application-args'] = decoded
       }
 
       return transaction
