@@ -51,7 +51,16 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
   debugger
   await saveTransactions(
     transactions.map((transaction) => {
-      if (transaction?.['application-transaction']['application-args'][0] == 'OBFgNw==') {
+      // xGwzBQ==
+
+      if (transaction?.['application-transaction']['application-args'][0] === 'xGwzBQ==') {
+        transaction['application-transaction']['application-args'] = [
+          'orderbook sell Asset OptIn',
+          `${transaction['application-transaction']['foreign-assets'][0]}`,
+        ]
+      }
+
+      if (transaction?.['application-transaction']['application-args'][0] === 'OBFgNw==') {
         const appArgs = transaction?.['application-transaction']['application-args']
         const decoded = [
           'User application call to Orderbook',
