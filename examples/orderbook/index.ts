@@ -54,14 +54,28 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
       if (transaction?.['application-transaction']['application-args'][0] == 'OBFgNw==') {
         const appArgs = transaction?.['application-transaction']['application-args']
         const decoded = [
-          '0',
+          'User application call to Orderbook',
           Buffer.from(appArgs[1], 'base64').toString(),
-          'place',
+          Buffer.from(appArgs[2], 'base64').toString(),
           ` ${algosdk.decodeUint64(Buffer.from(appArgs[3], 'base64'), 'safe')}`,
           ` ${algosdk.decodeUint64(Buffer.from(appArgs[4], 'base64'), 'safe')}`,
         ]
 
         transaction['application-transaction']['application-args'] = decoded
+        const orderCreateInnerTxn = transaction['inner-txns'][0]['application-transaction']
+
+        const innerAppArgs = orderCreateInnerTxn['application-args']
+
+        const decodedInner = [
+          'Orderbook create Order app call',
+          ` ${orderCreateInnerTxn['foreign-assets'][0]}`,
+          `${orderCreateInnerTxn['foreign-assets'][1]}`,
+          ` ${algosdk.decodeUint64(Buffer.from(innerAppArgs[3], 'base64'), 'safe')}`,
+          ` ${algosdk.decodeUint64(Buffer.from(innerAppArgs[4], 'base64'), 'safe')}`,
+          orderCreateInnerTxn['accounts'][0],
+        ]
+
+        transaction['inner-txns'][0]['application-transaction']['application-args'] = decodedInner
       }
 
       return transaction
