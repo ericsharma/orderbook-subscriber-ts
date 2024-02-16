@@ -62,5 +62,6 @@ out/
 
 watermark.txt
 
+cockroach-data/
 
 __pycache__
