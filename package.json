@@ -170,6 +170,9 @@
     ]
   },
   "dependencies": {
-    "buffer": "^6.0.3"
+    "@prisma/client": "^5.9.1",
+    "buffer": "^6.0.3",
+    "prisma": "^5.9.1",
+    "uuid": "^9.0.1"
   }
 }
