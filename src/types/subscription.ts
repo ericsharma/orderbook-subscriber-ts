@@ -121,6 +121,11 @@ export interface TransactionFilter {
   /** Filter to app transactions that have the given ARC-0004 method selector for
    * the given method signature as the first app argument. */
   methodSignature?: string
+
+  methodSignatures?: string[]
+  /** Filter to app transactions that have the given ARC-0004 method selector for
+   * any of the given method signatures as the first app argument. */
+
   /** Filter to app transactions that meet the given app arguments predicate. */
   appCallArgumentsMatch?: (appCallArguments?: Uint8Array[]) => boolean
 }
