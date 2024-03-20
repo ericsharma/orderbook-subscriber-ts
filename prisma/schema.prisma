@@ -18,6 +18,20 @@ model Order {
   tradingPair  TradingPair @relation(fields: [olderAssetId, newerAssetId], references: [olderAssetId, newerAssetId])
 }
 
+model OrderHistory {
+  transactionId String
+  type          OrderHistoryType
+  userAddress   String
+  user          User             @relation(fields: [userAddress], references: [userAddress])
+
+  @@unique([transactionId, userAddress])
+}
+
+model User {
+  userAddress  String         @id
+  orderHistory OrderHistory[]
+}
+
 model TradingPair {
   olderAssetId String
   newerAssetId String
@@ -26,4 +40,10 @@ model TradingPair {
   orders       Order[]
 
   @@unique([olderAssetId, newerAssetId], name: "tradingPairId")
+}
+
+enum OrderHistoryType {
+  Open
+  Close
+  Execute
 }
