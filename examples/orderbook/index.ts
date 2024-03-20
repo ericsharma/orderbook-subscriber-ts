@@ -5,13 +5,7 @@ import fs from 'fs'
 import path from 'path'
 import prisma from '../../prisma/prisma'
 import { AlgorandSubscriber } from '../../src/subscriber'
-
-function smaller(a: number, b: number) {
-  return a < b ? a : b
-}
-function bigger(a: number, b: number) {
-  return a > b ? a : b
-}
+import { formatAssetsForDB } from './dbUtils'
 if (!fs.existsSync(path.join(__dirname, '..', '..', '.env')) && !process.env.ALGOD_SERVER) {
   // eslint-disable-next-line no-console
   console.error('Copy /.env.sample to /.env before starting the application.')
@@ -131,8 +125,7 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
 
       if (!transaction['inner-txns'][1]['payment-transaction']) return transaction
       const appPayTxn = transaction['inner-txns'][1]['payment-transaction']
-      const olderAssetId = smaller(Number(decodedInner[1]), Number(decodedInner[2])).toString()
-      const newerAssetId = bigger(Number(decodedInner[1]), Number(decodedInner[2])).toString()
+      const { olderAssetId, newerAssetId } = formatAssetsForDB(Number(decodedInner[1]), Number(decodedInner[2]))
 
       openArr.push(
         prisma.order
@@ -144,13 +137,11 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
                   create: { olderAssetId, newerAssetId },
                 },
               },
-              sellAssetId: decodedInner[1],
-              buyAssetId: decodedInner[2],
               sellQuant: decodedInner[3],
               buyQuant: decodedInner[4],
               owner: decodedInner[5],
               appAddress: appPayTxn['receiver'],
-              type: decoded[1] === olderAssetId ? 'Buy' : 'Sell',
+              type: decoded[1] === olderAssetId ? 'Sell' : 'Buy', //older asset id is base asset
             },
           })
           .catch((error) =>
@@ -163,8 +154,6 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
                     create: { olderAssetId, newerAssetId },
                   },
                 },
-                sellAssetId: decodedInner[1],
-                buyAssetId: decodedInner[2],
                 sellQuant: decodedInner[3],
                 buyQuant: decodedInner[4],
                 owner: decodedInner[5],

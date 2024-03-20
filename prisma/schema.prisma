@@ -8,12 +8,9 @@ datasource db {
 }
 
 model Order {
-  id           String      @id @default(uuid())
   olderAssetId String
   newerAssetId String
-  sellAssetId  String
-  buyAssetId   String
-  appAddress   String
+  appAddress   String      @id
   owner        String
   sellQuant    String
   buyQuant     String
