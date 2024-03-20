@@ -24,7 +24,7 @@ async function getOrderBookSubscriber() {
             type: TransactionType.appl,
             // replace appID of target appId on machine localnet
             // appId: 1002,
-            appId: 3384,
+            appId: 7079,
             methodSignatures: [
               'openOrder(string,pay,pay,txn,uint64,uint64,uint64,uint64)uint64',
               'executeOrder(string,uint64,uint64,uint64)address[]',
@@ -54,16 +54,26 @@ async function getOrderBookSubscriber() {
 }
 
 async function saveOrderbookTransactions(transactions: TransactionResult[]) {
-  // eslint-disable-next-line no-debugger
-  // debugger
-  // // eslint-disable-next-line
-  // if (!transactions[2]['inner-txns']) return
+  type openOrderDBParams = {
+    sellQuant: string
+    buyQuant: string
+    owner: string
+    appAddress: string
+    type: 'Buy' | 'Sell'
+    olderAssetId: string
+    newerAssetId: string
+  }
 
-  // await prisma.tradingPair.create({ data: { olderAssetId: '1194', newerAssetId: '1195' } })]
+  type orderHistoryDBParams = {
+    userAddress: string
+    type: 'Open' | 'Close' | 'Execute'
+    transactionId: string
+  }
+  let openArr: openOrderDBParams[] = []
 
-  let openArr: Array<[string, unknown]> = []
+  const closeArr: { appAddress: string }[] = []
 
-  const closeArr: unknown[] = []
+  const orderHistoryArr: orderHistoryDBParams[] = []
 
   const transactionsWithAppArgs = transactions.map((transaction) => {
     // xGwzBQ==
@@ -97,13 +107,9 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
       const orderCreateInnerTxn = transaction['inner-txns'][0]['application-transaction']
       if (!orderCreateInnerTxn) return transaction
       if (!orderCreateInnerTxn['application-args']) return transaction
-      // if (!orderCreateInnerTxn['foreign-assets']) return transaction
-      // if (!orderCreateInnerTxn['accounts']) return transaction
 
       const innerAppArgs = orderCreateInnerTxn['application-args']
-      // const hash = sha512.sha512_256.array(innerAppArgs[5])
 
-      // // const box_b64 = innerAppArgs[5]
       const arg = Buffer.from(innerAppArgs[5], 'base64')
 
       const abi = algosdk.ABIType.from('address')
@@ -127,43 +133,21 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
       const appPayTxn = transaction['inner-txns'][1]['payment-transaction']
       const { olderAssetId, newerAssetId } = formatAssetsForDB(Number(decodedInner[1]), Number(decodedInner[2]))
 
-      openArr.push([
-        appPayTxn['receiver'],
-        prisma.order
-          .create({
-            data: {
-              tradingPair: {
-                connectOrCreate: {
-                  where: { tradingPairId: { olderAssetId, newerAssetId } },
-                  create: { olderAssetId, newerAssetId },
-                },
-              },
-              sellQuant: decodedInner[3],
-              buyQuant: decodedInner[4],
-              owner: decodedInner[5],
-              appAddress: appPayTxn['receiver'],
-              type: decoded[1] === olderAssetId ? 'Sell' : 'Buy', //older asset id is base asset
-            },
-          })
-          .catch((error) =>
-            // Transaction failed due to a write conflict or a deadlock. Please retry your transaction
-            prisma.order.create({
-              data: {
-                tradingPair: {
-                  connectOrCreate: {
-                    where: { tradingPairId: { olderAssetId, newerAssetId } },
-                    create: { olderAssetId, newerAssetId },
-                  },
-                },
-                sellQuant: decodedInner[3],
-                buyQuant: decodedInner[4],
-                owner: decodedInner[5],
-                appAddress: appPayTxn['receiver'],
-                type: decoded[1] === olderAssetId ? 'Buy' : 'Sell',
-              },
-            }),
-          ),
-      ])
+      openArr.push({
+        sellQuant: decodedInner[3],
+        buyQuant: decodedInner[4],
+        owner: decodedInner[5],
+        appAddress: appPayTxn['receiver'],
+        type: decoded[1] === olderAssetId ? 'Sell' : 'Buy',
+        olderAssetId,
+        newerAssetId,
+      })
+
+      orderHistoryArr.push({
+        userAddress: decodedInner[5],
+        type: 'Open',
+        transactionId: transaction.id,
+      })
     }
 
     if (methodIdentifier === 'fnRRDA==' && transaction['application-transaction']['accounts']) {
@@ -175,13 +159,19 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
         appAddress, // the app Account Address
       ]
       transaction['application-transaction']['application-args'] = decodedCloseAppArgs
-      const filteredArray = openArr.filter((orderArr) => orderArr[0] !== appAddress)
+      const filteredArray = openArr.filter((order) => order.appAddress !== appAddress)
       if (filteredArray.length < openArr.length) {
         openArr = filteredArray // closeOrder appAddress was found in OpenArr array so no need to post to DB
       } else {
         // if not found then push closeOrder DB request arr.
-        closeArr.push(prisma.order.delete({ where: { appAddress: appAddress } }))
+        closeArr.push({ appAddress: appAddress })
       }
+
+      orderHistoryArr.push({
+        userAddress: transaction.sender,
+        transactionId: transaction.id,
+        type: 'Close',
+      })
     }
     return transaction
   })
@@ -193,11 +183,80 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
   )
 
   // await Promise.resolve(openArr.shift())
-  await Promise.all(openArr.map((openArr) => openArr[1]))
 
-  console.log(`open Arr: ${openArr.length} close Arr: ${closeArr.length}`)
+  console.log(`open Arr: ${openArr.length} close Arr: ${closeArr.length} orderHistory Arr: ${orderHistoryArr.length}`)
+  await Promise.all(
+    openArr.map(({ appAddress, buyQuant, sellQuant, owner, type, olderAssetId, newerAssetId }) =>
+      prisma.order
+        .create({
+          data: {
+            tradingPair: {
+              connectOrCreate: {
+                where: { tradingPairId: { olderAssetId, newerAssetId } },
+                create: { olderAssetId, newerAssetId },
+              },
+            },
+            sellQuant,
+            buyQuant,
+            owner,
+            appAddress,
+            type, //older asset id is base asset
+          },
+        })
+        .catch((error) =>
+          // Transaction failed due to a write conflict or a deadlock. Please retry your transaction
+          prisma.order.create({
+            data: {
+              tradingPair: {
+                connectOrCreate: {
+                  where: { tradingPairId: { olderAssetId, newerAssetId } },
+                  create: { olderAssetId, newerAssetId },
+                },
+              },
+              sellQuant,
+              buyQuant,
+              owner,
+              appAddress,
+              type,
+            },
+          }),
+        ),
+    ),
+  )
 
-  await Promise.all(closeArr)
+  await Promise.all(closeArr.map((order) => prisma.order.delete({ where: { appAddress: order.appAddress } })))
+
+  await Promise.all(
+    orderHistoryArr.map(({ userAddress, type, transactionId }) =>
+      prisma.orderHistory
+        .create({
+          data: {
+            user: {
+              connectOrCreate: {
+                where: { userAddress },
+                create: { userAddress },
+              },
+            },
+            type,
+            transactionId,
+          },
+        })
+        .catch((error) =>
+          prisma.orderHistory.create({
+            data: {
+              user: {
+                connectOrCreate: {
+                  where: { userAddress },
+                  create: { userAddress },
+                },
+              },
+              type,
+              transactionId,
+            },
+          }),
+        ),
+    ),
+  )
 }
 
 // Basic methods that persist using filesystem - for illustrative purposes only
