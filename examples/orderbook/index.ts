@@ -61,7 +61,7 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
 
   // await prisma.tradingPair.create({ data: { olderAssetId: '1194', newerAssetId: '1195' } })]
 
-  const openArr: unknown[] = []
+  let openArr: Array<[string, unknown]> = []
 
   const closeArr: unknown[] = []
 
@@ -127,7 +127,8 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
       const appPayTxn = transaction['inner-txns'][1]['payment-transaction']
       const { olderAssetId, newerAssetId } = formatAssetsForDB(Number(decodedInner[1]), Number(decodedInner[2]))
 
-      openArr.push(
+      openArr.push([
+        appPayTxn['receiver'],
         prisma.order
           .create({
             data: {
@@ -162,7 +163,7 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
               },
             }),
           ),
-      )
+      ])
     }
 
     if (methodIdentifier === 'fnRRDA==' && transaction['application-transaction']['accounts']) {
@@ -174,7 +175,13 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
         appAddress, // the app Account Address
       ]
       transaction['application-transaction']['application-args'] = decodedCloseAppArgs
-      closeArr.push(prisma.order.delete({ where: { appAddress: appAddress } }))
+      const filteredArray = openArr.filter((orderArr) => orderArr[0] !== appAddress)
+      if (filteredArray.length < openArr.length) {
+        openArr = filteredArray // closeOrder appAddress was found in OpenArr array so no need to post to DB
+      } else {
+        // if not found then push closeOrder DB request arr.
+        closeArr.push(prisma.order.delete({ where: { appAddress: appAddress } }))
+      }
     }
     return transaction
   })
@@ -186,7 +193,7 @@ async function saveOrderbookTransactions(transactions: TransactionResult[]) {
   )
 
   // await Promise.resolve(openArr.shift())
-  await Promise.all(openArr)
+  await Promise.all(openArr.map((openArr) => openArr[1]))
 
   console.log(`open Arr: ${openArr.length} close Arr: ${closeArr.length}`)
 
